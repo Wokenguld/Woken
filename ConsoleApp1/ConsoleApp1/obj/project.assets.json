@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Coding\\Repositories\\Woken\\MMLogoDrawer\\MMLogoDrawer\\MMLogoDrawer.csproj",
-      "projectName": "MMLogoDrawer",
-      "projectPath": "D:\\Documents\\Coding\\Repositories\\Woken\\MMLogoDrawer\\MMLogoDrawer\\MMLogoDrawer.csproj",
+      "projectUniqueName": "D:\\Documents\\Coding\\Repositories\\Woken\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "D:\\Documents\\Coding\\Repositories\\Woken\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Wokenguld\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Coding\\Repositories\\Woken\\MMLogoDrawer\\MMLogoDrawer\\obj\\",
+      "outputPath": "D:\\Documents\\Coding\\Repositories\\Woken\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Wokenguld\\AppData\\Roaming\\NuGet\\NuGet.Config",

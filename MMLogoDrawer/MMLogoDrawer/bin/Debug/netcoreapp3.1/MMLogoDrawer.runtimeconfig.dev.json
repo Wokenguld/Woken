@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Wokenguld\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Wokenguld\\.nuget\\packages"
+    ]
+  }
+}

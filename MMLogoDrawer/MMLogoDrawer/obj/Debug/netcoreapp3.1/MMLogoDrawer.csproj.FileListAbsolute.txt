@@ -1,0 +1,11 @@
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\obj\Debug\netcoreapp3.1\MMLogoDrawer.csprojAssemblyReference.cache
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\obj\Debug\netcoreapp3.1\MMLogoDrawer.AssemblyInfoInputs.cache
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\obj\Debug\netcoreapp3.1\MMLogoDrawer.AssemblyInfo.cs
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\bin\Debug\netcoreapp3.1\MMLogoDrawer.exe
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\bin\Debug\netcoreapp3.1\MMLogoDrawer.deps.json
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\bin\Debug\netcoreapp3.1\MMLogoDrawer.runtimeconfig.json
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\bin\Debug\netcoreapp3.1\MMLogoDrawer.runtimeconfig.dev.json
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\bin\Debug\netcoreapp3.1\MMLogoDrawer.dll
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\bin\Debug\netcoreapp3.1\MMLogoDrawer.pdb
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\obj\Debug\netcoreapp3.1\MMLogoDrawer.dll
+D:\Documents\Coding\Repositories\Woken\MMLogoDrawer\MMLogoDrawer\obj\Debug\netcoreapp3.1\MMLogoDrawer.pdb

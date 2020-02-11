@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MMLogoDrawer
+namespace ConsoleApp1
 {
     class Program
     {
