@@ -28,21 +28,7 @@ namespace MMLogoDrawer
             this.logo = sbOfLogo.ToString();
                                    
         }
-
-        private static void AppendLastLine(int thiknessParameter, StringBuilder sbLine)
-        {
-            for (int n = 0; n < 2; n++)
-            {
-                for (int i = 0; i < 2; i++)
-                {
-                    sbLine.Append('*', thiknessParameter);
-                    sbLine.Append('-', thiknessParameter);
-                }
-                sbLine.Append('*', thiknessParameter);
-            }
-            sbLine.Append("\n\r");
-        }
-
+           
         private static void AppendFirstLine(int thiknessParameter, StringBuilder sbLine)
         {
             for (int n = 0; n < 2; n++)
@@ -55,6 +41,22 @@ namespace MMLogoDrawer
                 sbLine.Append('-', thiknessParameter);
             }
             sbLine.Append("\n\r");
+        }
+
+        private static void AppendFirstInnerHalf(int thiknessParameter, StringBuilder sbOfLogo)
+        {
+            for (int i = 1; i <= (thiknessParameter - 1) / 2; i++)
+            {
+                for (int n = 0; n < 2; n++)
+                {
+                    sbOfLogo.Append('-', thiknessParameter - i);
+                    sbOfLogo.Append('*', thiknessParameter + i * 2);
+                    sbOfLogo.Append('-', thiknessParameter - i * 2);
+                    sbOfLogo.Append('*', thiknessParameter + i * 2);
+                    sbOfLogo.Append('-', thiknessParameter - i);
+                }
+                sbOfLogo.Append("\n\r");
+            }
         }
 
         private static void AppendSecondInnerHalf(int thiknessParameter, StringBuilder sbOfLogo)
@@ -75,22 +77,20 @@ namespace MMLogoDrawer
             }
         }
 
-        private static void AppendFirstInnerHalf(int thiknessParameter, StringBuilder sbOfLogo)
+        private static void AppendLastLine(int thiknessParameter, StringBuilder sbLine)
         {
-            for (int i = 1; i <= (thiknessParameter - 1) / 2; i++)
+            for (int n = 0; n < 2; n++)
             {
-                for (int n = 0; n < 2; n++)
+                for (int i = 0; i < 2; i++)
                 {
-                    sbOfLogo.Append('-', thiknessParameter - i);
-                    sbOfLogo.Append('*', thiknessParameter + i * 2);
-                    sbOfLogo.Append('-', thiknessParameter - i * 2);
-                    sbOfLogo.Append('*', thiknessParameter + i * 2);
-                    sbOfLogo.Append('-', thiknessParameter - i);
+                    sbLine.Append('*', thiknessParameter);
+                    sbLine.Append('-', thiknessParameter);
                 }
-                sbOfLogo.Append("\n\r");
+                sbLine.Append('*', thiknessParameter);
             }
+            sbLine.Append("\n\r");
         }
-               
+
         public override string ToString()
         {
             return this.logo;
